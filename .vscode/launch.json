@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "NorAm",
+            "request": "launch",
+            "type": "al",
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "tenant": "c93e9d28-298b-4974-98ee-9d10ad57a0af",
+            "environmentName": "NEWNORAM",
+            "environmentType": "Sandbox",
+            "schemaUpdateMode": "ForceSync",
+            // "forceUpgrade": true,
+        }
+    ]
+}
