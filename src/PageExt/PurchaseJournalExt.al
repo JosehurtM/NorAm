@@ -26,12 +26,7 @@ pageextension 54101 PurchaseJournalExt extends "Purchase Journal"
                     GJTestReport: Report "Consigment Report MSCE";
                     GenJournalLine: Record "Gen. Journal Line";
                 begin
-                    // if GenJournalLine."Journal Template Name" <> 'CONSIGNMEN' then begin
-                    //     Message('Para ejecutar este mensaje el Gen Journal Template debe ser "Consigment');
-                    // end else begin
-                    //GJTestReport.Run();
-                    //end;
-                    GJTestReport.Run(); // Como podria hacer esta condicion
+                    GJTestReport.Run();
                 end;
             }
 

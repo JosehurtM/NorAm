@@ -1,0 +1,5 @@
+Purchase Orders: 10122
+Blanket Purchase Orders: 410
+Sales Invoice: 1306
+Purchase Invoice: 10121
+Purchase Credit Memo: 10120
