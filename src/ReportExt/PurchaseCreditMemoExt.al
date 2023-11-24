@@ -1,4 +1,4 @@
-reportextension 54104 "Purchase Credit Memo Extent" extends "Purchase Credit Memo NA"
+reportextension 54104 "Purchase Credit Memo Ext" extends "Purchase Credit Memo NA"
 {
     dataset
     {
