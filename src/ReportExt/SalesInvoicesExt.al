@@ -24,7 +24,7 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
 
     rendering
     {
-        layout("RDLC-MscloudExperts")
+        layout("WORD-MscloudExperts")
         {
             Type = WORD;
             LayoutFile = './src/ReportExt/SalesInvoice.docx';

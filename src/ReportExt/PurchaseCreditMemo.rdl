@@ -19,10 +19,13 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>1.18185in</Width>
+                  <Width>0.89457in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>2.54602in</Width>
+                  <Width>1.19364in</Width>
+                </TablixColumn>
+                <TablixColumn>
+                  <Width>1.65145in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.47909in</Width>
@@ -31,7 +34,7 @@
                   <Width>0.97515in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.97515in</Width>
+                  <Width>0.90295in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>1.18185in</Width>
@@ -41,6 +44,32 @@
                 <TablixRow>
                   <Height>0.03125in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox15">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox15</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Group1">
@@ -258,8 +287,40 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.13889in</Height>
+                  <Height>0.29861in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox17">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Line No</Value>
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox17</rd:DefaultName>
+                          <Style>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="textbox2">
@@ -273,15 +334,19 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>textbox2</rd:DefaultName>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
                         </Textbox>
@@ -300,14 +365,18 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -327,14 +396,18 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -354,16 +427,18 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -383,16 +458,18 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -412,6 +489,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                     <FontFamily>Segoe UI</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -421,7 +499,8 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070c0</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
                         </Textbox>
@@ -432,6 +511,32 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                 <TablixRow>
                   <Height>0.06944in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox21">
@@ -469,6 +574,38 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                 <TablixRow>
                   <Height>0.06944in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox23">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox23</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Style>Solid</Style>
+                            </TopBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox14">
@@ -514,6 +651,35 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
+                        <Textbox Name="LineNo_PurchCrMemoLine">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!LineNo_PurchCrMemoLine.Value</Value>
+                                  <Style>
+                                    <FontFamily>Garamond</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>LineNo_PurchCrMemoLine</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Top</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
                         <Textbox Name="ItemNumberToPrint">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -523,13 +689,13 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Fields!ItemNumberToPrint.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -551,12 +717,14 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Fields!Desc_PurchCrMemoLine.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
@@ -578,12 +746,14 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Fields!UOM_PurchCrMemoLine.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
@@ -605,14 +775,14 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!Quantity_PurchCrMemoLine.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!Quantity_PurchCrMemoLineFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -635,14 +805,14 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!UnitPriceToPrint.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!UnitPriceToPrintFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -665,7 +835,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!AmountExclInvDisc.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!AmountExclInvDiscFormat.Value</Format>
                                   </Style>
@@ -688,6 +858,31 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                 <TablixRow>
                   <Height>0.03125in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox25">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox25</rd:DefaultName>
+                          <Style>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Group2">
@@ -885,6 +1080,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
+                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -939,15 +1135,15 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
             <Left>0.00139in</Left>
-            <Height>0.46874in</Height>
-            <Width>7.33911in</Width>
+            <Height>0.62846in</Height>
+            <Width>7.2787in</Width>
             <Style />
           </Tablix>
         </ReportItems>
-        <Height>0.46874in</Height>
+        <Height>0.62846in</Height>
         <Style />
       </Body>
-      <Width>7.353in</Width>
+      <Width>7.36605in</Width>
       <Page>
         <PageHeader>
           <Height>4.45185in</Height>
@@ -964,6 +1160,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -987,6 +1184,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1009,7 +1207,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(36,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1036,7 +1234,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(37,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1063,9 +1261,10 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(38,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>14pt</FontSize>
                         <FontWeight>Bold</FontWeight>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1093,6 +1292,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1120,6 +1320,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1147,6 +1348,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1174,6 +1376,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1201,6 +1404,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1225,6 +1429,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1249,6 +1454,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1271,7 +1477,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(29,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1298,7 +1504,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(24,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1325,7 +1531,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(16,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1350,7 +1556,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(28,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1377,7 +1583,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(31,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1404,7 +1610,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.Getdata(27,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1431,7 +1637,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(26,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1458,7 +1664,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(23,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1485,7 +1691,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(22,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1512,7 +1718,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(21,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1539,7 +1745,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(20,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1566,7 +1772,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(19,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1593,7 +1799,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(18,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1620,7 +1826,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(17,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1647,7 +1853,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(25,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1674,7 +1880,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(15,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1699,7 +1905,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(14,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1724,7 +1930,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(13,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1749,7 +1955,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(12,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1774,7 +1980,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(11,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1799,7 +2005,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(10,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1824,7 +2030,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(9,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1849,7 +2055,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(33,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                       </Style>
@@ -1875,7 +2081,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(3,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1902,7 +2108,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=code.GetData(2,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1929,7 +2135,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(1,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1956,7 +2162,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(30,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>d</Format>
                       </Style>
@@ -1984,7 +2190,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(45,1) &amp;" "&amp; Code.GetGroupPageNumber(Code.IsNewPage(ReportItems!HeaderNoPageNo.Value),Globals!PageNumber)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2013,6 +2219,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                       <Style>
                         <FontFamily>Segoe UI</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070c0</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2035,7 +2242,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(32,1)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2057,8 +2264,8 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
               <Value>=First(Fields!Picture.Value, "DataSet_Result")</Value>
               <MIMEType>image/jpeg</MIMEType>
               <Sizing>FitProportional</Sizing>
-              <Top>0.105in</Top>
-              <Left>0.21333in</Left>
+              <Top>0.11889in</Top>
+              <Left>0.00139in</Left>
               <Height>0.75962in</Height>
               <Width>1.875in</Width>
               <ZIndex>42</ZIndex>
@@ -2084,7 +2291,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(4,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2111,7 +2318,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(8,2)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(12,2)</Format>
                       </Style>
@@ -2143,7 +2350,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Fields!InvoiceDiscountCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2174,7 +2381,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=CDec(Cstr(Choose(2,Split(Cstr(ReportItems!AAmountAmountExclInvDisc.Value),Chr(177)))))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(17,2)</Format>
                       </Style>
@@ -2206,7 +2413,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.Getdata(1,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2237,7 +2444,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Fields!SubtotalCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                       </Style>
@@ -2269,7 +2476,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=CDec(Cstr(Choose(1,Split(Cstr(ReportItems!AAmountAmountExclInvDisc.Value),Chr(177)))))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                         <Format>=Code.GetData(16,2)</Format>
@@ -2302,7 +2509,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(5,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2333,7 +2540,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(9,2)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(13,2)</Format>
                       </Style>
@@ -2365,7 +2572,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.Getdata(2,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2396,7 +2603,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=ReportItems!VATAmountExclInvDisc.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(18,2)</Format>
                       </Style>
@@ -2428,7 +2635,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(6,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2459,7 +2666,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(10,2)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(14,2)</Format>
                       </Style>
@@ -2491,7 +2698,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Fields!TotalCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                       </Style>
@@ -2523,7 +2730,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=ReportItems!VAT.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                         <Format>=Code.GetData(19,2)</Format>
@@ -2559,7 +2766,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.GetData(7,2)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2590,7 +2797,7 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(11,2)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Code.GetData(15,2)</Format>
                       </Style>
@@ -2622,7 +2829,9 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                   <TextRuns>
                     <TextRun>
                       <Value />
-                      <Style />
+                      <Style>
+                        <FontFamily>Garamond</FontFamily>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -2658,7 +2867,9 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                   <TextRuns>
                     <TextRun>
                       <Value />
-                      <Style />
+                      <Style>
+                        <FontFamily>Garamond</FontFamily>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -2688,7 +2899,9 @@ Cstr(Fields!TaxIdentTypeCaption.Value)
                   <TextRuns>
                     <TextRun>
                       <Value />
-                      <Style />
+                      <Style>
+                        <FontFamily>Garamond</FontFamily>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />

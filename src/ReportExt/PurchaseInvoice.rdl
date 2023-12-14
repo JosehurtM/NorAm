@@ -19,31 +19,62 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
+                  <Width>0.82677in</Width>
+                </TablixColumn>
+                <TablixColumn>
                   <Width>0.88328in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.99032in</Width>
+                  <Width>1.25959in</Width>
                 </TablixColumn>
                 <TablixColumn>
                   <Width>0.85714in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.48053in</Width>
+                  <Width>0.63193in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.97659in</Width>
+                  <Width>0.72915in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>0.97659in</Width>
+                  <Width>0.88399in</Width>
                 </TablixColumn>
                 <TablixColumn>
-                  <Width>1.18328in</Width>
+                  <Width>1.27303in</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
                   <Height>0.03125in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox20">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <Color>#ff0000</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox20</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Group1">
@@ -315,8 +346,40 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.13889in</Height>
+                  <Height>0.30106in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox26">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>Line No</Value>
+                                  <Style>
+                                    <FontFamily>Century Gothic</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox26</rd:DefaultName>
+                          <Style>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="textbox2">
@@ -327,18 +390,22 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!ItemNoCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <rd:DefaultName>textbox2</rd:DefaultName>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
                         </Textbox>
@@ -354,17 +421,21 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!DescriptionCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -381,20 +452,22 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!DiscountPctCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <ZIndex>135</ZIndex>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -411,17 +484,21 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!UnitCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -438,19 +515,21 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!QuantityCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -467,19 +546,21 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!UnitPriceCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                             <PaddingRight>5pt</PaddingRight>
                           </Style>
@@ -496,19 +577,21 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!TotalPriceCaption.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Century Gothic</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
+                                    <Color>White</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
-                            <VerticalAlign>Bottom</VerticalAlign>
+                            <BackgroundColor>#0070bd</BackgroundColor>
+                            <VerticalAlign>Middle</VerticalAlign>
                             <PaddingLeft>5pt</PaddingLeft>
                           </Style>
                         </Textbox>
@@ -519,6 +602,35 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                 <TablixRow>
                   <Height>0.06944in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox29">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox29</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                            <PaddingLeft>5pt</PaddingLeft>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox27">
@@ -560,6 +672,41 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                 <TablixRow>
                   <Height>0.06944in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox30">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                    <FontWeight>Bold</FontWeight>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox30</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Style>None</Style>
+                            </Border>
+                            <TopBorder>
+                              <Style>Solid</Style>
+                            </TopBorder>
+                            <VerticalAlign>Bottom</VerticalAlign>
+                            <PaddingLeft>5pt</PaddingLeft>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Textbox33">
@@ -609,6 +756,35 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
+                        <Textbox Name="LineNo_PurchInvLine">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=Fields!LineNo_PurchInvLine.Value</Value>
+                                  <Style>
+                                    <FontFamily>Garamond</FontFamily>
+                                    <FontSize>8pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>LineNo_PurchInvLine</rd:DefaultName>
+                          <Style>
+                            <VerticalAlign>Top</VerticalAlign>
+                            <PaddingRight>5pt</PaddingRight>
+                          </Style>
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
+                    <TablixCell>
+                      <CellContents>
                         <Textbox Name="ItemNumberToPrint">
                           <CanGrow>true</CanGrow>
                           <KeepTogether>true</KeepTogether>
@@ -618,13 +794,13 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!ItemNumberToPrint.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Left</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -646,12 +822,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!Description_PurchInvLine.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
@@ -674,14 +852,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                   <Value>=Code.BlankZero(Fields!LineDisc_PurchInvLine.Value)</Value>
                                   <Style>
                                     <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!LineDisc_PurchInvLineFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -705,12 +883,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Fields!UnitofMeasure_PurchInvLine.Value</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
-                              <Style />
+                              <Style>
+                                <TextAlign>Center</TextAlign>
+                              </Style>
                             </Paragraph>
                           </Paragraphs>
                           <Style>
@@ -732,14 +912,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!Quantity_PurchInvLine.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!Quantity_PurchInvLineFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -762,14 +942,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!UnitPriceToPrint.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!UnitPriceToPrintFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -792,14 +972,14 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                                 <TextRun>
                                   <Value>=Code.BlankZero(Fields!AmountExclInvDisc.Value)</Value>
                                   <Style>
-                                    <FontFamily>Segoe UI</FontFamily>
+                                    <FontFamily>Garamond</FontFamily>
                                     <FontSize>8pt</FontSize>
                                     <Format>=Fields!AmountExclInvDiscFormat.Value</Format>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
                               <Style>
-                                <TextAlign>Right</TextAlign>
+                                <TextAlign>Center</TextAlign>
                               </Style>
                             </Paragraph>
                           </Paragraphs>
@@ -815,6 +995,29 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                 <TablixRow>
                   <Height>0.03125in</Height>
                   <TablixCells>
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox32">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value />
+                                  <Style>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style />
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox32</rd:DefaultName>
+                          <Style />
+                        </Textbox>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell>
                       <CellContents>
                         <Textbox Name="Group2">
@@ -1019,6 +1222,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                 <TablixMember />
                 <TablixMember />
                 <TablixMember />
+                <TablixMember />
               </TablixMembers>
             </TablixColumnHierarchy>
             <TablixRowHierarchy>
@@ -1073,15 +1277,15 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Height>0.47119in</Height>
-            <Width>7.34773in</Width>
+            <Height>0.63336in</Height>
+            <Width>7.34488in</Width>
             <Style />
           </Tablix>
         </ReportItems>
-        <Height>0.47119in</Height>
+        <Height>0.63336in</Height>
         <Style />
       </Body>
-      <Width>7.34773in</Width>
+      <Width>7.36836in</Width>
       <Page>
         <PageHeader>
           <Height>4.76755in</Height>
@@ -1096,8 +1300,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(37,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1119,8 +1324,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(38,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1145,7 +1351,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(39,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1172,7 +1378,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(40,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1199,9 +1405,10 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(41,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>14pt</FontSize>
                         <FontWeight>Bold</FontWeight>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1226,8 +1433,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(42,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1251,8 +1459,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(43,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1276,8 +1485,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(44,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1303,8 +1513,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(45,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1330,8 +1541,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(46,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1356,8 +1568,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(47,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1382,8 +1595,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(48,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -1406,7 +1620,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(25,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1433,7 +1647,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(24,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1460,7 +1674,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(16,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1485,7 +1699,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(27,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1512,7 +1726,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.Getdata(35,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1539,7 +1753,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(29,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1566,7 +1780,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(26,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1593,7 +1807,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(23,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1620,7 +1834,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(22,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1647,7 +1861,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(21,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1674,7 +1888,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(20,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1701,7 +1915,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(19,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1728,7 +1942,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(18,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1755,7 +1969,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(17,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1782,7 +1996,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.Getdata(33,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1809,7 +2023,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(15,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1834,7 +2048,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(14,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1859,7 +2073,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(13,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1884,7 +2098,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(12,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1909,7 +2123,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(11,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1934,7 +2148,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(10,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -1959,7 +2173,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(9,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2011,7 +2225,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(3,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2038,7 +2252,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(2,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2065,7 +2279,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(1,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2092,7 +2306,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(28,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>d</Format>
                       </Style>
@@ -2120,7 +2334,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(49,Globals!PageName) &amp;" " &amp; Code.GetGroupPageNumber(Code.IsNewPage(ReportItems!HeaderNoPageNo.Value),Globals!PageNumber)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2147,8 +2361,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(50,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2173,7 +2388,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.Getdata(34,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2200,8 +2415,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(51,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2227,8 +2443,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(52,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2254,7 +2471,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(30,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2281,7 +2498,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(31,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2308,8 +2525,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(53,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Century Gothic</FontFamily>
                         <FontSize>8pt</FontSize>
+                        <Color>#0070bd</Color>
                       </Style>
                     </TextRun>
                   </TextRuns>
@@ -2334,7 +2552,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(36,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2359,7 +2577,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
               <MIMEType>image/jpeg</MIMEType>
               <Sizing>FitProportional</Sizing>
               <Top>0.09667in</Top>
-              <Left>0.13833in</Left>
+              <Left>0.0132in</Left>
               <Height>0.80532in</Height>
               <Width>2.69287in</Width>
               <ZIndex>48</ZIndex>
@@ -2385,7 +2603,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(56,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2415,7 +2633,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(60,Globals!PageName)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt1Format.Value</Format>
                       </Style>
@@ -2447,7 +2665,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Fields!InvDiscCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2478,7 +2696,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=CDec(Cstr(Choose(2,Split(Cstr(ReportItems!AAmountAmountExclInvDisc.Value),Chr(177)))))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt2Format.Value</Format>
                       </Style>
@@ -2510,7 +2728,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(54,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2541,7 +2759,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Fields!SubtotalCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                       </Style>
@@ -2573,7 +2791,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=CDec(Cstr(Choose(1,Split(Cstr(ReportItems!AAmountAmountExclInvDisc.Value),Chr(177)))))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                         <Format>=Fields!AmountExclInvDiscFormat.Value</Format>
@@ -2606,7 +2824,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(57,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2637,7 +2855,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(61,Globals!PageName)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt2Format.Value</Format>
                       </Style>
@@ -2669,7 +2887,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Fields!TotalTaxLabel.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2700,7 +2918,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=ReportItems!VATAmountExclInvDisc.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt3Format.Value</Format>
                       </Style>
@@ -2732,7 +2950,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(58,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2763,7 +2981,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(62,Globals!PageName)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt3Format.Value</Format>
                       </Style>
@@ -2795,7 +3013,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Fields!TotalCaption.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                       </Style>
@@ -2827,7 +3045,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=ReportItems!VAT.Value</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <FontWeight>Bold</FontWeight>
                         <Format>=Fields!BreakdownAmt4Format.Value</Format>
@@ -2860,7 +3078,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.GetData(59,Globals!PageName)</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                       </Style>
                     </TextRun>
@@ -2891,7 +3109,7 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                     <TextRun>
                       <Value>=Code.BlankZero(CDec(Code.GetData(63,Globals!PageName)))</Value>
                       <Style>
-                        <FontFamily>Segoe UI</FontFamily>
+                        <FontFamily>Garamond</FontFamily>
                         <FontSize>8pt</FontSize>
                         <Format>=Fields!BreakdownAmt4Format.Value</Format>
                       </Style>
@@ -2923,7 +3141,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                   <TextRuns>
                     <TextRun>
                       <Value />
-                      <Style />
+                      <Style>
+                        <FontFamily>Garamond</FontFamily>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -2949,7 +3169,9 @@ Cstr(Last(Fields!BreakdownAmt4.Value))
                   <TextRuns>
                     <TextRun>
                       <Value />
-                      <Style />
+                      <Style>
+                        <FontFamily>Garamond</FontFamily>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
