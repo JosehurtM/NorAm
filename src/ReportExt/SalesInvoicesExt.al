@@ -15,6 +15,11 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
                 CompanyInfo2.CALCFIELDS(Picture);
             end;
         }
+
+        add(Line)
+        {
+            column(Description_2; "Description 2") { }
+        }
     }
 
     requestpage

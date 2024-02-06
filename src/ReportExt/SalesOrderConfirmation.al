@@ -10,6 +10,7 @@ reportextension 54106 "Sales Order Confirmation" extends "Standard Sales - Order
         add(Line)
         {
             column(Location_Code; "Location Code") { }
+            column(Description_2; "Description 2") { }
         }
 
         modify("Header")
