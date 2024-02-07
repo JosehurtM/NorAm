@@ -465,7 +465,7 @@
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
                               <Height>1.41112cm</Height>
-                              <Width>13.86924cm</Width>
+                              <Width>13.86925cm</Width>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -476,7 +476,7 @@
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>1.3902cm</Width>
+                                    <Width>0.6917cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.93003cm</Width>
@@ -509,13 +509,13 @@
                                     <Width>1.7381cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.53998cm</Width>
+                                    <Width>1.85748cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>0.30117cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.37389cm</Width>
+                                    <Width>2.24172cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -6491,7 +6491,7 @@
                               <DataSetName>DataSet_Result</DataSetName>
                               <Top>1.41112cm</Top>
                               <Height>2.98979cm</Height>
-                              <Width>24.18398cm</Width>
+                              <Width>24.67081cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style>
                                 <Border>
