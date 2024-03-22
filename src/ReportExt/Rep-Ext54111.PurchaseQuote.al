@@ -9,6 +9,7 @@ reportextension 54111 PurchaseQuote extends "Purchase Quote NA"
         add("Purchase Line")
         {
             column(Line_No_; "Line No.") { }
+            column(Description_2; "Description 2") { }
         }
 
         modify("Purchase Header")
