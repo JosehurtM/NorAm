@@ -11,6 +11,8 @@ reportextension 54107 ProFormaInvoiceExt extends "Standard Sales - Pro Forma Inv
             column(Ship_to_Address_2; "Ship-to Address 2") { }
             column(Ship_to_City; "Ship-to City") { }
             column(Ship_to_Contac; "Ship-to Contact") { }
+            column(Ship_to_County; "Ship-to County") { }
+            column(Ship_to_Post_Code; "Ship-to Post Code") { }
 
         }
         modify("Header")
