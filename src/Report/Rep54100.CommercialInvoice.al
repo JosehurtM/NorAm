@@ -439,12 +439,14 @@ report 54100 "Commercial Invoice"
             LayoutFile = './src/Report/CommercialInvoice.docx';
             Caption = 'Commercial Invoice (Word)';
             Summary = 'The Standard Sales CommercialInvoice (Word) provides a basic layout.';
+
         }
     }
 
     labels
     {
     }
+
 
     trigger OnInitReport()
     var
@@ -456,10 +458,10 @@ report 54100 "Commercial Invoice"
         IsHandled := false;
         OnInitReportForGlobalVariable(IsHandled, LegalOfficeTxt, LegalOfficeLbl);
 #if not CLEAN23
-        if not IsHandled then begin
-            LegalOfficeTxt := CompanyInformation.GetLegalOffice();
-            LegalOfficeLbl := CompanyInformation.GetLegalOfficeLbl();
-        end;
+        // if not IsHandled then begin
+        //     LegalOfficeTxt := CompanyInformation.GetLegalOffice();
+        //     LegalOfficeLbl := CompanyInformation.GetLegalOfficeLbl();
+        // end;
 #endif
     end;
 
@@ -554,14 +556,19 @@ report 54100 "Commercial Invoice"
         end;
     end;
 
+
     local procedure DocumentCaption(): Text
     var
         DocCaption: Text;
+        DocumentDateText: Text;
     begin
         OnBeforeGetDocumentCaption(Header, DocCaption);
         if DocCaption <> '' then
             exit(DocCaption);
         exit(DocumentTitleLbl);
+
+        DocumentDateText := Format(Header."Document Date", 0, '<Year4><Month,2><Day,2>');
+        exit(StrSubstNo('Commercial Invoice %1 %2', DocumentDateText, Header."No."));
     end;
 
     local procedure GetItemForRec(ItemNo: Code[20])
