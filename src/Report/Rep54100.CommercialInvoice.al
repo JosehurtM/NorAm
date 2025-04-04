@@ -255,8 +255,16 @@ report 54100 "Commercial Invoice"
             column(Ship_to_County; "Ship-to County")
             {
             }
+            column(Ship_to_country; "Ship-to Country/Region Code")
+            {
+            }
             column(Ship_to_Post_Code; "Ship-to Post Code")
             {
+            }
+
+            column(Ship_to_PhoneNo; ShiptoPhoneNo)
+            {
+
             }
 
             dataitem(Line; "Sales Line")
@@ -399,6 +407,9 @@ report 54100 "Commercial Invoice"
             trigger OnAfterGetRecord()
             var
                 SalesPeople: Record "Salesperson/Purchaser";
+                ShipToAddr: Record "Ship-to Address";
+                RecRef: RecordRef;
+                FieldRef: FieldRef;
             begin
                 CurrReport.Language := Language.GetLanguageIdOrDefault("Language Code");
                 CurrReport.FormatRegion := Language.GetFormatRegionOrDefault("Format Region");
@@ -406,14 +417,26 @@ report 54100 "Commercial Invoice"
                 if SellToContact.Get("Sell-to Contact No.") then;
                 if BillToContact.Get("Bill-to Contact No.") then;
 
+                ShiptoPhoneNo := '';
+
+                // Solo asignar el valor cuando es Custom Address (Ship-to Code está vacío)
+
+                if "Ship-to Code" = '' then begin
+                    RecRef.GetTable(Header);
+                    if RecRef.FieldExist(210) then begin  // 210 es el ID del campo Ship-to Phone No.
+                        FieldRef := RecRef.Field(210);
+                        ShiptoPhoneNo := Format(FieldRef.Value);
+                    end;
+                end else if ShipToAddr.Get("Sell-to Customer No.", "Ship-to Code") then
+                        ShiptoPhoneNo := ShipToAddr."Phone No.";
+
                 CalcFields("Work Description");
                 ShowWorkDescription := "Work Description".HasValue();
 
                 SalesPeople.Reset();
                 SalesPeople.SetRange(Code, "Salesperson Code");
-                if SalesPeople.FindLast() then begin
+                if SalesPeople.FindLast() then
                     SalesEmail := SalesPeople."E-Mail";
-                end;
             end;
 
         }
@@ -471,6 +494,7 @@ report 54100 "Commercial Invoice"
         DummyCurrency: Record Currency;
         AutoFormat: Codeunit "Auto Format";
         Language: Codeunit Language;
+        ShiptoPhoneNo: Text;
         SalesEmail: Text;
         CountryOfManufactuctureLbl: Label 'Country';
         TotalWeightLbl: Label 'Total Weight';
