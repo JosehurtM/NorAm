@@ -411,8 +411,8 @@ report 54100 "Commercial Invoice"
                 RecRef: RecordRef;
                 FieldRef: FieldRef;
             begin
-                CurrReport.Language := Language.GetLanguageIdOrDefault("Language Code");
-                CurrReport.FormatRegion := Language.GetFormatRegionOrDefault("Format Region");
+                CurrReport.Language := LanguageCU.GetLanguageIdOrDefault("Language Code");
+                CurrReport.FormatRegion := LanguageCU.GetFormatRegionOrDefault("Format Region");
                 FormatDocumentFields(Header);
                 if SellToContact.Get("Sell-to Contact No.") then;
                 if BillToContact.Get("Bill-to Contact No.") then;
@@ -493,7 +493,7 @@ report 54100 "Commercial Invoice"
         DummyShipmentMethod: Record "Shipment Method";
         DummyCurrency: Record Currency;
         AutoFormat: Codeunit "Auto Format";
-        Language: Codeunit Language;
+        LanguageCU: Codeunit Language;
         ShiptoPhoneNo: Text;
         SalesEmail: Text;
         CountryOfManufactuctureLbl: Label 'Country';

@@ -3,6 +3,16 @@ pageextension 54101 SalesOrder extends "Sales Order"
     layout
     {
 
+        modify(Control297)  // Este es el grupo que contiene el campo Ship-to County
+        {
+            Visible = true;
+        }
+
+        modify("Ship-to County")
+        {
+            Visible = true;
+            ApplicationArea = all;
+        }
     }
     actions
     {
