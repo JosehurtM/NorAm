@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"$env:USERPROFILE\\\\.vscode\\\\extensions\\\\ms-dynamics-smb.al-17.0.2273547\\\\bin\\\\win32\\\\alc.exe\" /project:\"c:\\\\Users\\\\Usuario\\\\Documents\\\\TRABAJO\\\\REPOSITORIOS\\\\NORAM\\\\NorAm\" /packagecachepath:\"c:\\\\Users\\\\Usuario\\\\Documents\\\\TRABAJO\\\\REPOSITORIOS\\\\NORAM\\\\NorAm\\\\.alpackages\" /out:\"C:\\\\Users\\\\Usuario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-Usuario-Documents-TRABAJO-REPOSITORIOS-NORAM-NorAm\\\\80bb52bc-6d52-4470-9e3b-b124c618da7a\\\\scratchpad\\\\test.app\")",
+      "Bash(iconv -f UTF-16 -t UTF-8 customXml/item1.xml)",
+      "Bash(sed 's/\\\\[1\\\\]//g')",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

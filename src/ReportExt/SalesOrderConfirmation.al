@@ -14,6 +14,8 @@ reportextension 54106 "Sales Order Confirmation" extends "Standard Sales - Order
             column(Ship_to_County; "Ship-to County") { }
             column(Ship_to_Country_Region_Code; "Ship-to Country/Region Code") { }
             column(Ship_to_Post_Code; "Ship-to Post Code") { }
+            column(PaymentDueDateText; PaymentDueDateText) { }
+            column(PenaltyInterestText; PenaltyInterestText) { }
 
         }
         add(Line)
@@ -34,6 +36,15 @@ reportextension 54106 "Sales Order Confirmation" extends "Standard Sales - Order
                 end;
 
             end;
+
+            // OnAfterAfterGetRecord: el reporte base fija CurrReport.Language en su propio
+            // OnAfterGetRecord, asi que el texto se arma despues para que el mes y las etiquetas
+            // salgan en el idioma del documento.
+            trigger OnAfterAfterGetRecord()
+            begin
+                PaymentTermsNotice.GetNoticeTexts(
+                    "Payment Terms Code", "Due Date", PaymentDueDateText, PenaltyInterestText);
+            end;
         }
     }
 
@@ -53,6 +64,9 @@ reportextension 54106 "Sales Order Confirmation" extends "Standard Sales - Order
 
     var
         CompanyInfo2: Record "Company Information";
+        PaymentTermsNotice: Codeunit "Payment Terms Notice MSCE";
+        PaymentDueDateText: Text;
+        PenaltyInterestText: Text;
 
 }
 

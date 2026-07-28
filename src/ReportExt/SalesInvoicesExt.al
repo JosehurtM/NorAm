@@ -5,6 +5,8 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
         add("Header")
         {
             column(Picture; CompanyInfo2.Picture) { }
+            column(PaymentDueDateText; PaymentDueDateText) { }
+            column(PenaltyInterestText; PenaltyInterestText) { }
         }
 
         modify("Header")
@@ -13,6 +15,15 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
             begin
                 CompanyInfo2.GET;
                 CompanyInfo2.CALCFIELDS(Picture);
+            end;
+
+            // OnAfterAfterGetRecord: el reporte base fija CurrReport.Language y FormatRegion en su
+            // propio OnAfterGetRecord, asi que el texto se arma despues para que el mes y las
+            // etiquetas salgan en el idioma del documento.
+            trigger OnAfterAfterGetRecord()
+            begin
+                PaymentTermsNotice.GetNoticeTexts(
+                    "Payment Terms Code", "Due Date", PaymentDueDateText, PenaltyInterestText);
             end;
         }
 
@@ -38,5 +49,8 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
 
     var
         CompanyInfo2: Record "Company Information";
+        PaymentTermsNotice: Codeunit "Payment Terms Notice MSCE";
+        PaymentDueDateText: Text;
+        PenaltyInterestText: Text;
 
 }
