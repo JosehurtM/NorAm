@@ -22,8 +22,8 @@ reportextension 54100 "Sales Invoice Ext" extends "Standard Sales - Invoice"
             // etiquetas salgan en el idioma del documento.
             trigger OnAfterAfterGetRecord()
             begin
-                PaymentTermsNotice.GetNoticeTexts(
-                    "Payment Terms Code", "Due Date", PaymentDueDateText, PenaltyInterestText);
+                PaymentDueDateText := PaymentTermsNotice.GetPaymentDueDateText("Payment Terms Code", "Bill-to Customer No.", "Due Date");
+                PenaltyInterestText := PaymentTermsNotice.GetPenaltyInterestText("Payment Terms Code", "Bill-to Customer No.");
             end;
         }
 

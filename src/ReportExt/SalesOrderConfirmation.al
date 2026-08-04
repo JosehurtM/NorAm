@@ -42,8 +42,8 @@ reportextension 54106 "Sales Order Confirmation" extends "Standard Sales - Order
             // salgan en el idioma del documento.
             trigger OnAfterAfterGetRecord()
             begin
-                PaymentTermsNotice.GetNoticeTexts(
-                    "Payment Terms Code", "Due Date", PaymentDueDateText, PenaltyInterestText);
+                PaymentDueDateText := PaymentTermsNotice.GetPaymentDueDateText("Payment Terms Code", "Bill-to Customer No.", "Due Date");
+                PenaltyInterestText := PaymentTermsNotice.GetPenaltyInterestText("Payment Terms Code", "Bill-to Customer No.");
             end;
         }
     }
